@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Двухфакторная аутентификация</title>
+</head>
+<body>
+    <h1>Подтверждение 2FA</h1>
+    <form action="/2fa" method="POST">
+        <label for="code">Введите код:</label><br>
+        <input type="text" id="code" name="code" required><br><br>
+        <button type="submit">Подтвердить</button>
+    </form>
+</body>
+</html>
